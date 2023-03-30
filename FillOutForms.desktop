@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=FillOutForms
+Exec=bash gui.sh %F
+StartupWMClass=FillOutForms
+Comment=Automate filling out multiple different paper forms
+Type=Application
+Terminal=true
