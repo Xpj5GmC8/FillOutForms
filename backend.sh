@@ -1,8 +1,7 @@
 #!/bin/bash
 IsCancelling () {
-[[ "$(<"$CancelTxt")" == "1" ]] &&
-return 0 ||
-return 1; }
+[[ "$(<"$CancelTxt")" == "1" ]]
+return $?; }
 ErrorZenity () {
 echo 100
 echo "#$1"
